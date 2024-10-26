@@ -23,10 +23,10 @@ Parking: a owl:Ontology ;
 
 <https://smartcity.linkeddata.es/Grupo10/ontology/parkingbicismadrid#Parking> a owl:DatatypeProperty ;
     rdfs:label "parking" ;
-    rdfs:range barrio:String,
-        cod_barrio:Integer,
-        cod_distrito:Integer,
-        distrito:String .
+    rdfs:range barrio:string,
+        cod_barrio:integer,
+        cod_distrito:integer,
+        distrito:string .
 
 Parking:Barrio a owl:Class ;
     rdfs:label "Barrio" .
@@ -34,8 +34,8 @@ Parking:Barrio a owl:Class ;
 Parking:Distrito a owl:Class ;
     rdfs:label "Distrito" .
 
-Parking:ID a owl:DatatypeProperty ;
-    rdfs:label "i d" .
+Parking:id a owl:DatatypeProperty ;
+    rdfs:label "id" .
 
 Parking:Parking a owl:Class ;
     rdfs:label "Parking" .
@@ -57,7 +57,7 @@ Parking:coord_gis_x a owl:DatatypeProperty ;
 
 Parking:coord_gis_y a owl:DatatypeProperty ;
     rdfs:label "coord_gis_y" ;
-    rdfs:range xsd:Float .
+    rdfs:range xsd:float .
 
 Parking:desc_clasificacion a owl:DatatypeProperty ;
     rdfs:label "desc_clasificacion" .
@@ -67,19 +67,19 @@ Parking:direccion_aux a owl:DatatypeProperty ;
 
 Parking:estado a owl:DatatypeProperty ;
     rdfs:label "estado" ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 Parking:fecha_instalacion a owl:DatatypeProperty ;
     rdfs:label "fecha_instalacion" .
 
 Parking:hasBarrio a owl:ObjectProperty ;
-    rdfs:label "has barrio" .
+    rdfs:label "has_barrio" .
 
 Parking:hasDistrito a owl:ObjectProperty ;
-    rdfs:label "has distrito" .
+    rdfs:label "has_distrito" .
 
 Parking:hasVia a owl:ObjectProperty ;
-    rdfs:label "has via" .
+    rdfs:label "has_via" .
 
 Parking:latitud a owl:DatatypeProperty ;
     rdfs:label "latitud" .
