@@ -34,8 +34,8 @@ Parking:Barrio a owl:Class ;
 Parking:Distrito a owl:Class ;
     rdfs:label "Distrito" .
 
-Parking:ID a owl:DatatypeProperty ;
-    rdfs:label "i d" .
+Parking:id a owl:DatatypeProperty ;
+    rdfs:label "id" .
 
 Parking:Parking a owl:Class ;
     rdfs:label "Parking" .
@@ -73,13 +73,13 @@ Parking:fecha_instalacion a owl:DatatypeProperty ;
     rdfs:label "fecha_instalacion" .
 
 Parking:hasBarrio a owl:ObjectProperty ;
-    rdfs:label "has barrio" .
+    rdfs:label "has_barrio" .
 
 Parking:hasDistrito a owl:ObjectProperty ;
-    rdfs:label "has distrito" .
+    rdfs:label "has_distrito" .
 
 Parking:hasVia a owl:ObjectProperty ;
-    rdfs:label "has via" .
+    rdfs:label "has_via" .
 
 Parking:latitud a owl:DatatypeProperty ;
     rdfs:label "latitud" .
